@@ -145,6 +145,9 @@ Lali.setup = function()
   cmp.setup.filetype("blade", {
     sources = cmp.config.sources(new_sources),
   })
+  cmp.setup.filetype("php", {
+    sources = cmp.config.sources(new_sources),
+  })
 end
 
 return Lali
